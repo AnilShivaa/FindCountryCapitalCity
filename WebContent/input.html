@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CapitalCity</title>
+</head>
+
+<body bgcolor="blue">
+ 
+ 
+ <script type="text/javascript" src="JS/Validation.js">
+ </script>
+ 
+ <h2 style="color:white; text-align:center">Enter Country name to get its Capital City</h2>
+ <center>
+	 <img src="images/w.gif">
+ </center>
+ 	
+<form action="ficaurl" method="POST" name="frm">
+
+<h3 style="color:yellow; text-align:center">Select Country:<select name="countryCapital" onchange="send()" ></h3>
+	<option value="" selected>Select Country</option>
+	<option value="0" >Nepal</option>
+	<option value="1" >India</option>
+	<option value="2" >Pakistan</option>
+	<option value="3" >Japan</option>
+</select>
+
+</form> 	
+ 		 	
+</body>
+</html>
+
+
+
+<script>
+	function send() {
+		frm.submit();
+	}
+</script>

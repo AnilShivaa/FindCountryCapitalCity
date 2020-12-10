@@ -1,0 +1,17 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>fica</servlet-name>  
+<servlet-class>com.anil.capitalApp.FindCapitalCity</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>fica</servlet-name>  
+<url-pattern>/ficaurl</url-pattern>  
+</servlet-mapping>  
+
+<welcome-file-list>
+	<welcome-file>input.html</welcome-file>
+</welcome-file-list>
+  
+</web-app>  
